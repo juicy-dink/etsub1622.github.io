@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p5.js Website Example</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    // p5.js sketch
+    function setup() {
+      createCanvas(400, 400);
+    }
+
+    function draw() {
+      background(220);
+      fill(0, 0, 255);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+  </script>
+</body>
+</html>
